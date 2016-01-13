@@ -3,6 +3,7 @@ branch=$(<branchinfo)
 dirname="${branch}bingo.2martens.de"
 
 if [ "$branch" = "master" ]; then
+    echo "Master branch is not built"
     exit
 fi
 
