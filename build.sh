@@ -7,4 +7,4 @@ if [ "$branch" = "master" ]; then
 fi
 
 # transport files over to uberspace
-rsync -r --exclude=".git/" --exclude="README" . uberspace:html/$dirname/ 
+rsync -r --exclude=".git" --exclude="README" . uberspace:html/$dirname/ 
