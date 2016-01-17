@@ -8,4 +8,4 @@ if [ "$branch" = "master" ]; then
 fi
 
 # transport files over to uberspace
-rsync -tvzrc --modify-window=1 --progress --exclude=".git*" --exclude="README" . uberspace:html/$dirname/ 
+rsync -tvzrc --modify-window=1 --progress --exclude=".git**" --exclude="README" . uberspace:html/$dirname/ 
