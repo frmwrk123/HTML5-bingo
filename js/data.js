@@ -34,6 +34,12 @@ var JSONBingo = {"squares": [
     	{"square": "elektronisch"},
     	{"square": "Schwierigkeit"},
     	{"square": "entlassen"},
-        {"square": "Zusammenfassung"}
+        {"square": "Zusammenfassung"},
+        {"square": "Kern"},
+        {"square": "Idee"},
+        {"square": "Kunden"},
+        {"square": "Systeme"},
+        {"square": "Mitarbeiter"},
+        {"square": "Prozesse"}
     ]
 };
